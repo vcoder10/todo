@@ -13,7 +13,7 @@ html {
 
 .main-div {
   min-height: 100vh;
-  background: #060822;
+  background: rgba(40, 217, 167, 0.168);
   display: flex;
   justify-content: center;
   /* align-items: center; */
@@ -30,7 +30,8 @@ html {
 }
 
 .child-div figure figcaption {
-  color: #fff;
+  color:black;
+  font-weight: 200;
   font-size: 2.2rem;
   padding-top: 2rem;
   text-transform: capitalize;
@@ -116,7 +117,7 @@ input:focus {
   margin-left: 1rem;
   min-width: 40rem;
   word-break: break-word;
-  background: rgb(85, 41, 220);
+  background: rgb(38, 236, 143);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -171,7 +172,7 @@ input:focus {
 .btn {
   letter-spacing: 0.1em;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 45px;
   max-width: 160px;
@@ -188,7 +189,7 @@ input:focus {
   --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
   display: var(--uismLinkDisplay);
   color: #000;
-  outline: solid 2px #000;
+  outline: solid 1px #000;
   position: relative;
   transition-duration: 0.4s;
   overflow: hidden;
@@ -202,7 +203,7 @@ input:focus {
 }
 
 .effect04:hover {
-  background-color: rgb(85, 41, 220);
+  background-color: rgb(246, 27, 27)
 }
 
 .effect04:hover span {
